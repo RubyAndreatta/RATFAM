@@ -10957,10 +10957,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1755730449}
-  selectedCommands:
-  - {fileID: 1755730450}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1755729968}
   - {fileID: 1755729967}
@@ -23268,8 +23266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1594.9482
-    y: -35.247543
+    x: -1602.0072
+    y: -41.1299
     width: 81.764694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -23309,8 +23307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1599.2898
-    y: 32.75248
+    x: -1627.5261
+    y: 24.51719
     width: 114.705864
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -23350,8 +23348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1636.0114
-    y: -105.897156
+    x: -1632.4818
+    y: -108.250084
     width: 132.35292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -46892,7 +46890,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1755730450
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -46911,7 +46909,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1755730451
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
