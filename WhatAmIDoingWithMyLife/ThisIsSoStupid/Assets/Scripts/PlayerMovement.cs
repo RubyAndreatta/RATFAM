@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
+
+    public bool PMovement = true;
 
     Vector2 movement;
 
@@ -22,6 +25,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (PMovement)
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
+        
+    }
+
+
+    public void PlayerMovementBoolCheckFALSE(Rigidbody2D rb)
+    {
+        PMovement = false;
+    }
+    public void PlayerMovementBoolCheckTRUE(Rigidbody2D rb)
+    {
+        PMovement = true;
     }
 }
