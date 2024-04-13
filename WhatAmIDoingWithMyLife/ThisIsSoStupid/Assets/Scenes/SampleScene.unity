@@ -4515,8 +4515,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 889716262}
-  selectedCommands: []
+  - {fileID: 889716281}
+  selectedCommands:
+  - {fileID: 889716282}
   variables:
   - {fileID: 889716265}
   - {fileID: 889716269}
@@ -5229,8 +5230,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: hello?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1165659849}
+  portrait: {fileID: 21300000, guid: 912a81ffc267aa049991df15286a6415, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7650,8 +7651,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'I feel... '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1165659849}
+  portrait: {fileID: 21300000, guid: 912a81ffc267aa049991df15286a6415, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8027,8 +8028,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: thanks
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1165659849}
+  portrait: {fileID: 21300000, guid: 912a81ffc267aa049991df15286a6415, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9642,8 +9643,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 233, y: 263.13}
-  m_SizeDelta: {x: 357, y: 435}
+  m_AnchoredPosition: {x: -1686, y: 375}
+  m_SizeDelta: {x: 727.615, y: 962.297}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075779608
 MonoBehaviour:
@@ -10792,9 +10793,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 912a81ffc267aa049991df15286a6415, type: 3}
   portraitsFace: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1785699022}
   description: 
 --- !u!1 &1168556683
 GameObject:
@@ -14279,7 +14280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1976.2521, y: 497.9752}
+  scrollPos: {x: 2066.8398, y: 459.15173}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -14290,7 +14291,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1755730377}
   selectedCommands: []
   variables:
   - {fileID: 1755729968}
@@ -51021,6 +51023,17 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8157291080975221518, guid: b92c26902b22cb44798da48b3ddc1fe2, type: 3}
   m_PrefabInstance: {fileID: 8157291080321951178}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1882240896 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8157291080975221511, guid: b92c26902b22cb44798da48b3ddc1fe2, type: 3}
+  m_PrefabInstance: {fileID: 8157291080321951178}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882240890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1900371551
 GameObject:
   m_ObjectHideFlags: 0
@@ -51215,7 +51228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1755729927}
+  selectedFlowchart: {fileID: 1882240896}
 --- !u!4 &1932965875
 Transform:
   m_ObjectHideFlags: 1
@@ -51613,8 +51626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.5, y: 129.13004}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 1009, y: 71}
+  m_SizeDelta: {x: 389.26, y: 418.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013742352
 MonoBehaviour:
@@ -51629,14 +51642,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2968213, g: 0.7169812, b: 0.22659309, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
