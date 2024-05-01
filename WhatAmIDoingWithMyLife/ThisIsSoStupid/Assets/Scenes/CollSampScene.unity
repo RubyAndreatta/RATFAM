@@ -1750,6 +1750,7 @@ GameObject:
   - component: {fileID: 359545293}
   - component: {fileID: 359545292}
   - component: {fileID: 359545291}
+  - component: {fileID: 359545336}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -1895,14 +1896,13 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 359545319}
-  selectedCommands:
-  - {fileID: 359545314}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 359545290}
   - {fileID: 359545289}
   - {fileID: 359545288}
+  - {fileID: 359545336}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -3883,7 +3883,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 279.9748
-    y: 259.60675
+    y: 260.97662
     width: 197.94516
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   targetFlowchart: {fileID: 1755729927}
-  targetBlock: {fileID: 1755730577}
+  targetBlock: {fileID: 1755729973}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -4208,7 +4208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 7
+  itemId: 117
   indentLevel: 1
   anyVar:
     variable: {fileID: 359545288}
@@ -4548,7 +4548,7 @@ MonoBehaviour:
   itemId: 3
   indentLevel: 1
   anyVar:
-    variable: {fileID: 889716269}
+    variable: {fileID: 359545336}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -4979,6 +4979,21 @@ MonoBehaviour:
   - {fileID: 359545329}
   - {fileID: 359545328}
   suppressAllAutoSelections: 0
+--- !u!114 &359545336
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359545282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: BedHit
+  value: 0
 --- !u!1 &369103918
 GameObject:
   m_ObjectHideFlags: 0
@@ -7818,9 +7833,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 889716288}
+  - {fileID: 889716262}
   selectedCommands:
-  - {fileID: 889716342}
+  - {fileID: 889716266}
   variables:
   - {fileID: 889716265}
   - {fileID: 889716269}
